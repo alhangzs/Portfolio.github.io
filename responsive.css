@@ -1,0 +1,136 @@
+@media (max-width: 1280px) {
+  header {
+    padding: 1rem 2rem;
+    gap: 2rem;
+  }
+
+  .home .home-container {
+    gap: 2rem;
+  }
+
+  .info-box h3 {
+    font-size: 28px;
+  }
+
+  .info-box h1 {
+    font-size: 60px;
+  }
+
+  .info-box span {
+    font-size: 28px;
+  }
+
+  .about-container {
+    flex-direction: column;
+  }
+
+  .about img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 1rem 1rem;
+    gap: 1rem;
+  }
+
+  header .logo {
+    gap: 1rem;
+  }
+
+  .image-section {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .about img {
+    width: 60vw;
+  }
+
+  .projects-card img {
+    width: 48vw;
+  }
+
+  .projects-grid .popup-image img {
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 0.8rem 3rem;
+  }
+  header .logo {
+    font-size: 28px;
+  }
+
+  header #menu-icon {
+    display: block;
+  }
+
+  .home-container {
+    flex-direction: column;
+  }
+
+  .home img {
+    width: 60vw;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 80%;
+    margin-top: 1rem;
+    width: 80%;
+    padding: 1rem;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f0f0f0;
+    display: none;
+  }
+
+  .nav-links li {
+    margin-top: 1rem;
+    padding: 0.5rem;
+  }
+
+  .nav-links.active {
+    display: block;
+  }
+
+  .card-title,
+  .card-text,
+  .card-textl {
+    font-size: 1rem;
+  }
+
+  .card-name {
+    font-size: 1.1rem;
+  }
+
+  .btn {
+    padding: 4px;
+    gap: 10px;
+  }
+
+  .table-section {
+    padding: 10px;
+    height: 240px;
+  }
+
+  .table-sectionB {
+    padding: 10px;
+  }
+
+  .table-style td {
+    font-size: 14px;
+  }
+
+  .table-sectionB .table-style td{
+    padding: 8px 0;
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
