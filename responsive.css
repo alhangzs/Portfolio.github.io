@@ -134,3 +134,29 @@
     font-weight: bold;
   }
 }
+
+@media (max-width: 550px) {
+  .special-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .table-section {
+    padding: 8px;
+    height: 300px;
+  }
+
+  .table-sectionB {
+    padding: 8px;
+  }
+
+  .table-style td {
+    font-size: 12px;
+  }
+
+  .table-sectionB .table-style td {
+    padding: 8px 0;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
